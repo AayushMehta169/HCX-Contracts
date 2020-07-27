@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+.page-footer {
+	background-color: #343A40;
+    width: 100%;
+    margin-top: 15vh;
+    position: fixed;
+    bottom: 0;
+}
+.footer-text {
+	text-align: center;
+	color: #9A9DA0;
+	font-size: 2vh;
+}
+.inputfield .btn{
+    width: 40%;
+     padding: 8px 10px;
+    font-size: 20px; 
+    border: 0px;
+    
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+  }
+  
+ 
+.page-footer img {
+	height: 30px;
+	width: 30px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+/* aayush */
+.navbar{
+    margin-bottom: 0;
+}
+.p-0 {
+	padding: 0;
+}
+.mb-0 {
+	margin-bottom: 0;
+}
+.div1head{
+    margin-bottom: 40px ;
+}
+
+header {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+.bgcolhead {
+    background-color: #020000;
+}
+
+.enddi{
+    margin-bottom: 20px;
+}
+
+.aboutdiv{
+    margin-top: 40px;
+  
+}
+.aboutdiv h1{
+    font-size: 6vh;
+}
+.aboutdiv p{
+    font-size: 3vh;
+}
+
+
+.navbar-light .navbar-toggler {
+    border: none;
+    color: #fff;
+    border: 2px solid #7f7f7f;
+    border-radius: 0;
+    outline: none;
+}
+
+
+.nav-item {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+#call {
+    font-size: 2em;
+    color: white;
+}
+
+#order {
+    color: orange;
+    font-size: 1em;
+}
+
+
+.main-text h5{
+font-size: 6vh;
+letter-spacing: 2px;
+font-weight: bold;
+}
+
+.main-text p{
+font-size:25px;
+letter-spacing: 1px;
+}
+
+.main-text
+{
+    position: absolute;
+    top: 50%;
+transform: translateY(-50%);
+bottom: initial;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+
+.bg-danger {
+    background-color: #e50914!important;
+}
+
+.text-danger {
+    color: #e50914!important;
+}
+
+
+
+
+
+@media only screen and (max-width: 889px) {
+    .button-1 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .we {
+        padding-left: 28px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .location {
+        margin-top: 15px;
+    }
+    .partner {
+        margin-top: 20px;
+    }
+    .button-1 {
+        width: 50%;
+    }
+    #myTabContent {
+        color: white;
+        /* May or may not work out well with different backgrounds; maybe blur image?*/
+    }
+}
+
+
